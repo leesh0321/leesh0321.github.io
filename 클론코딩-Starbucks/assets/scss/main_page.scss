@@ -1,0 +1,214 @@
+@import './common.scss';
+
+.bg {
+    background-image: url('../img/main_page_img/2023_m_summer1_promotion_bg_2_230426.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+
+    .card {
+        position: fixed;
+        top: 105px;
+        right: 5px;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .summer_on_item {
+
+        .title {
+            text-align: left;
+            padding-left: 15%;
+            padding-top: 22%;
+            margin-bottom: 70px;
+
+            img {
+                width: 55%;
+            }
+        }
+
+        .item {
+            margin-top: 30px;
+
+            img {
+                width: 75%;
+            }
+        }
+    }
+
+    .items {
+        color: white;
+        border: 3px solid white;
+        border-radius: 3px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 23px;
+        font-weight: 600;
+        text-decoration: none;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        transition: all 0.5s;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            text-decoration: underline;
+        }
+    }
+}
+
+.notice {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px 20px;
+
+    img {
+        width: 40px;
+    }
+
+    .notice_content {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 9px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .plus_icon {
+        color: white;
+        font-size: 26px;
+        margin-left: auto;
+        margin-top: 5px;
+    }
+}
+
+.promotion {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: #f6f5ef;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 500;
+        margin-right: 12px;
+        margin-top: 2px;
+    }
+
+    img {
+        margin-left: 12px;
+    }
+}
+
+.reward {
+    background-color: #1e3932;
+    text-align: center;
+    padding: 40px 0;
+
+    img {
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .reward_content {
+        color: white;
+
+        .reward_content1 {
+            padding-bottom: 20px;
+            border-bottom: 1px solid gray;
+            margin: 0 20px;
+
+            h3 {
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+            a {
+                display: inline-block;
+                padding: 10px 50px;
+                margin-top: 10px;
+                border-radius: 3px;
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                &.sign_up {
+                    background-color: #00704a;
+                    margin-right: 5px;
+                }
+
+                &.login {
+                    border: 2px solid white;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .reward_content2 {
+            padding-top: 30px;
+            
+            p {
+                font-size: 15px;
+                padding-left: 40px;
+                padding-right: 40px;
+                line-height: 150%;
+                margin-bottom: 10px;
+            }
+
+            a {
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                border: 2px solid white;
+                border-radius: 3px;
+                margin-top: 10px;
+                padding: 10px 50px;
+                font-size: 15px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.papua_new_guinea {
+    text-align: center;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 22px;
+        padding: 10px 30px;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        bottom: 8%;
+        transform: translateX(-50%);
+    }
+    
+}
